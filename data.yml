@@ -1,0 +1,11 @@
+title: Mon fuckin' site with Jade
+menu:
+    -
+        link: index
+        name: Homepage
+    -
+        link: troudbal
+        name: A propos
+    -
+        link: contact
+        name: Contact

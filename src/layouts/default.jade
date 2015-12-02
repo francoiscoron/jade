@@ -1,0 +1,17 @@
+//- Inclusion des variables
+block var
+
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title= title
+  body
+    if !noheader
+      header.header
+        nav.header__nav
+          ul
+            each item in menu
+              li.item: a(href="#{item.link}.html", "class"=(page == item.link ? "is-ative" : ""))= item.name
+
+  block content
